@@ -53,6 +53,7 @@ export default function HomePage() {
             commentText={x.commentText}
             likeNum={x.likeNum}
             replies={x.replies}
+            key={x.userImagePath}
           />
         ))}
 

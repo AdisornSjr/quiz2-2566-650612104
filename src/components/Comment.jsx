@@ -38,6 +38,7 @@ export const Comment = ({
           username={x.username}
           replyText={x.replyText}
           likeNum={x.likeNum}
+          key={x.userImagePath}
         />
       ))}
     </div>
