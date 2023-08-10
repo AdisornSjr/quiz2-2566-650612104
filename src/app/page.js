@@ -20,8 +20,8 @@ export default function HomePage() {
         <PostOwner
           name="Adisorn Sancharoen"
           studentID="650612104"
-          detail="Quiz ง่ายจังเลยครับ ขอยาก ๆ กว่านี้ได้ไหม #261207"
-          num="100"
+          detail="Quiz ไม่ง่ายนะครับคราวหน้าง่ายๆ กว่านี้ได้ไหม #261207"
+          likeNum="10000"
         ></PostOwner>
 
         {/* Comment Example */}

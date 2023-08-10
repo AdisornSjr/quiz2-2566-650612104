@@ -1,4 +1,4 @@
-export const PostOwner = (props) => {
+export const PostOwner = ({ name, studentID, detail, likeNum }) => {
   return (
     <div className="vstack gap-3">
       <div className="d-flex align-items-center gap-3">
@@ -10,15 +10,15 @@ export const PostOwner = (props) => {
           style={{ objectFit: "cover" }}
         />
         <span className="fw-semibold fs-5">
-          {props.name} {props.studentID}
+          {name} {studentID}
         </span>
       </div>
 
-      <span>{props.detail}</span>
+      <span>{detail}</span>
 
       <div className="d-flex align-items-center gap-1">
         <img src="/like.svg" width={20}></img>
-        <span className="text-muted">{props.num} คน</span>
+        <span className="text-muted">{likeNum} คน</span>
       </div>
       <hr className="m-0 border" />
     </div>
