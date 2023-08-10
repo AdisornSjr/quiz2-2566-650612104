@@ -21,7 +21,7 @@ export default function HomePage() {
           name="Adisorn Sancharoen"
           studentID="650612104"
           detail="Quiz ไม่ง่ายนะครับคราวหน้าง่ายๆ กว่านี้ได้ไหม #261207"
-          likeNum="10000"
+          likeNum="999"
         ></PostOwner>
 
         {/* Comment Example */}
